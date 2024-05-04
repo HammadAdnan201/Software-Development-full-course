@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammad mobile sell table</title>
+    <style>
+        body {
+            
+  background-color:#eee;
+  color:#444;
+  font-family:sans-serif;
+height: 80px;
+
+}
+
+.list ul:nth-child(odd) {
+  background-color:#d6a9a9;
+  
+}
+
+.list ul:nth-child(even) {
+  background-color:#fdfcfc;
+ 
+}
+
+/* big */
+@media screen and (min-width:700px) {
+  
+  .list {
+    display:table;
+    padding-bottom: 20px;
+   
+  }
+ 
+  .list ul {
+    display:table-row;
+   
+    
+  }
+  
+  .list ul:first-child li {
+    background-color:#535353;
+    color:#fff;
+    padding: 20px;
+
+    
+  }
+  
+  .list ul > li {
+    display:table-cell;
+    padding:.5em 1em;
+    
+  }
+  
+}
+
+
+@media screen and (max-width:499px) {
+  
+  .list ul {
+    border:solid 1px #eecdcd;
+    display: block;
+    list-style:none;
+    margin:1em;
+    padding:.3em 1em;
+  }
+  
+  .list ul:first-child {
+    display:none;
+  }
+  
+  .list ul > li {
+    display:block;
+    padding:.20em 0;
+  }
+  
+  .list ul:nth-child(odd) > li + li {
+    border-top:solid 1px #ccc;
+  }
+  
+  .list ul:nth-child(even) > li + li {
+    border-top:solid 1px #eee;
+  }
+  
+  .list ul > li:before {
+    color:#000;
+    content:attr(data-label);
+    display:inline-block;
+    font-size:75%;
+    font-weight:bold;
+    text-transform:capitalize;
+    vertical-align:top;
+    width:50%;
+  }
+  
+  .list p {
+    margin:-1em 0 0 50%;
+  }
+  
+}
+
+/* tiny */
+@media screen and (max-width:349px) {
+    
+  .list ul > li:before {
+    display:block;
+  }
+  
+  .list p {
+    margin:0;
+  }
+  
+}
+.hammad{
+    background-color: blueviolet;
+}
+    </style>
+</head>
+<body style="background-color: blueviolet;" >
+    <div class="hammad">
+
+ <center>
+  <ul>
+    <li>Date</li>
+    <li>Order id</li>
+    <li>Name</li>
+    <li>Price</li>
+    <li>Quantity</li>
+    <li>Total</li>
+  </ul>
+  <div class="list">
+  <ul>
+    <li data-label="">2019-02-4 12:02
+        <li data-label="">300983
+        <li data-label="">iponeXmax 64gb Grey
+        <li data-label="">$999:00
+        <li data-label="">1<li>
+           $99:00
+        
+    </li>
+    <hr>
+    
+  </ul>
+  <ul>
+    <li data-label="first name">2019-02-6 01:02</li>
+    <li data-label="last name">300981</li>
+    <li data-label="name">Sumsung s8 black</li>
+    <li data-label="price">$756:00</li>
+    <li data-label="quantity ">1</li>
+    $756:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-8 12:30</li>
+    <li data-label=" ">300979</li>
+    <li data-label="name">Game console controller</li>
+    <li data-label="price">$22:00</li>
+    <li data-label="quantity ">2</li>
+    $22:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-10 02:40</li>
+    <li data-label="">300977</li>
+    <li data-label="">Usb 3:0 Cable</li>
+    <li data-label="">$10:00</li>
+    <li data-label="">3</li>
+  $10:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-14 08:00</li>
+    <li data-label="">300975</li>
+    <li data-label="">smart watch 2.0 LTE Wifi</li>
+    <li data-label="">$199:00</li>
+    <li data-label="">6</li>
+                      $199:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-17 08:15</li>
+    <li data-label="">300972</li>
+    <li data-label="">Camera C430W 4K</li>
+    <li data-label="">$499:00</li>
+    <li data-label="">4</li>
+                      $499:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-19 08:37</li>
+    <li data-label="">300970</li>
+    <li data-label="">Macbook Pro retina 2017</li>
+    <li data-label="">$2199:00</li>
+    <li data-label="">1</li>
+                      $2199:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-23 08:50</li>
+    <li data-label="">300968</li>
+    <li data-label="">Game Console Controller</li>
+    <li data-label="">$999:00</li>
+    <li data-label="">1</li>
+                      $999:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-25 09:00</li>
+    <li data-label="">300965</li>
+    <li data-label="">iponeXmax 64gb Grey</li>
+    <li data-label="">$999:00</li>
+    <li data-label="">1</li>
+                      $999:00
+  </ul>
+  <ul>
+    <li data-label="first name">2019-02-6 01:02</li>
+    <li data-label="last name">300981</li>
+    <li data-label="name">Sumsung s8 black</li>
+    <li data-label="price">$756:00</li>
+    <li data-label="quantity ">1</li>
+    $756:00
+  </ul>
+  <ul>
+    <li data-label="first name">2019-02-8 12:30</li>
+    <li data-label="last name">300979</li>
+    <li data-label="name">Game console controller</li>
+    <li data-label="price">$22:00</li>
+    <li data-label="quantity ">2</li>
+    $22:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-10 02:40</li>
+    <li data-label="">300977</li>
+    <li data-label="">Usb 3:0 Cable</li>
+    <li data-label="">$10:00</li>
+    <li data-label="">3</li>
+  $10:00
+  </ul>
+  <ul>
+    <li data-label="">2019-02-25 09:00</li>
+    <li data-label="">300965</li>
+    <li data-label="">iponeXmax 64gb Grey</li>
+    <li data-label="">$999:00</li>
+    <li data-label="">1</li>
+                      $999:00
+  </ul> <ul>
+    <li data-label="">2019-02-25 09:00</li>
+    <li data-label="">300965</li>
+    <li data-label="">iponeXmax 64gb Grey</li>
+    <li data-label="">$999:00</li>
+    <li data-label="">1</li>
+                      $999:00
+  </ul>
+</div>
+</div></center>
+</body>
+</html>
